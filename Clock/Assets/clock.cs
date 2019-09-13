@@ -14,7 +14,7 @@ public class clock : MonoBehaviour
     public Transform hoursTransform, minutesTransform, secondsTransform;
     void Update(){
         //To control whether or not the clock is continuous from inside the scene
-        if(Input.GetKeyDown("space")){
+        if(Input.GetKeyDown("tab")){
             continuous = !continuous;
         }
         if(continuous) UpdateContinuous();
