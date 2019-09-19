@@ -35,4 +35,8 @@ public class RollingSphereTwo : MonoBehaviour
         if(col.gameObject.CompareTag("Vanishing"))
             col.gameObject.SetActive(false);
     }
+
+    void OnTriggerEnter(Collider col) {
+        if((col.gameObject.CompareTag("Vanishing")))col.gameObject.SetActive(false);   
+    }
 }

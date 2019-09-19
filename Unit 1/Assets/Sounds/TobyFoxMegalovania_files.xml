@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="Toby Fox - Megalovania.afpk" source="derivative">
+    <format>Columbia Peaks</format>
+    <original>Toby Fox - Megalovania.mp3</original>
+    <mtime>1471102549</mtime>
+    <size>47136</size>
+    <md5>8fe1f66185cb028a051dc6310e3be287</md5>
+    <crc32>0490cdd7</crc32>
+    <sha1>29e857e0f55c18acdd661949c396eebe706822f4</sha1>
+  </file>
+  <file name="Toby Fox - Megalovania.mp3" source="original">
+    <mtime>1471102509</mtime>
+    <size>3752460</size>
+    <md5>2d92a3cecaeddc18bbd95059251709cd</md5>
+    <crc32>71a333bc</crc32>
+    <sha1>e7b68c1c23b8c2cb98c7656f4fd543a568e47795</sha1>
+    <format>VBR MP3</format>
+    <length>156.11</length>
+    <title>Megalovania</title>
+    <artist>Toby Fox</artist>
+    <album>Undertale</album>
+    <creator>Toby Fox</creator>
+    <track>01</track>
+    <height>0</height>
+    <width>0</width>
+    <external-identifier-match-date>acoustid:2019-03-23T03:01:33Z</external-identifier-match-date>
+    <external-identifier>urn:acoustid:1d8553aa-5fd8-4bac-aa41-5bb4b4005412</external-identifier>
+  </file>
+  <file name="Toby Fox - Megalovania.ogg" source="derivative">
+    <format>Ogg Vorbis</format>
+    <original>Toby Fox - Megalovania.mp3</original>
+    <mtime>1471102536</mtime>
+    <size>1734807</size>
+    <md5>b99914ee2d80863605b99cd639c2ec0a</md5>
+    <crc32>262b017d</crc32>
+    <sha1>db5ab4482156904737496b3a2323559a73281f6c</sha1>
+    <length>156.08</length>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="Toby Fox - Megalovania.png" source="derivative">
+    <format>PNG</format>
+    <original>Toby Fox - Megalovania.mp3</original>
+    <mtime>1471102541</mtime>
+    <size>9642</size>
+    <md5>8eb35bdfed6d3fea2638909fdf9da1a8</md5>
+    <crc32>cf0db479</crc32>
+    <sha1>5444cbbc4261badfa3724cebcdc052d3fd1f937b</sha1>
+  </file>
+  <file name="Toby Fox - Megalovania_spectrogram.png" source="derivative">
+    <format>Spectrogram</format>
+    <original>Toby Fox - Megalovania.mp3</original>
+    <mtime>1471102543</mtime>
+    <size>219281</size>
+    <md5>2e9d3fd03c637e8cbcdd85d05aaa5ee9</md5>
+    <crc32>1cc44f4b</crc32>
+    <sha1>14b30c3428b8ca380d46b9ee3bfea8e77de87879</sha1>
+  </file>
+  <file name="TobyFoxMegalovania_archive.torrent" source="metadata">
+    <btih>6b1ea7160830d9443b57d54b02e6bf303304e7f3</btih>
+    <mtime>1563806896</mtime>
+    <size>2809</size>
+    <md5>2bd249829ef6f44894fe1f2ea55c5fa1</md5>
+    <crc32>75a51758</crc32>
+    <sha1>0014d6aa58c2f83c05437a2c730f7c8a0ff48e7b</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="TobyFoxMegalovania_files.xml" source="metadata">
+    <format>Metadata</format>
+    <md5>d64a60f2c7b3f461fc9945da13979e98</md5>
+  </file>
+  <file name="TobyFoxMegalovania_meta.sqlite" source="original">
+    <mtime>1471102521</mtime>
+    <size>11264</size>
+    <md5>5ffceaf7a0eb8c11af77fa3db8c6516b</md5>
+    <crc32>684435a7</crc32>
+    <sha1>97c3427b285ae775a9b36d8c919c11203eadba2b</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="TobyFoxMegalovania_meta.xml" source="metadata">
+    <mtime>1562078003</mtime>
+    <size>1337</size>
+    <format>Metadata</format>
+    <md5>a0bd42ae8221af6d3591e193ec7d1367</md5>
+    <crc32>9cab5cb6</crc32>
+    <sha1>ea18b41490a0c7cea12820a6f557296f1e982b1d</sha1>
+  </file>
+  <file name="TobyFoxMegalovania_reviews.xml" source="original">
+    <mtime>1563806891</mtime>
+    <size>1560</size>
+    <format>Metadata</format>
+    <md5>f23de2ded48a3352a1e4d288733d33e8</md5>
+    <crc32>1dfbb93d</crc32>
+    <sha1>e2edd020c5bf66ec1f2d8ff93ccdcc5bff50ae20</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1553310109</mtime>
+    <size>2657</size>
+    <md5>89e3b7bd617545b6034acfa39ac90d99</md5>
+    <crc32>fb0fe1e0</crc32>
+    <sha1>57cccbf891d39370a1e6e6098bc9add86383f536</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+</files>
