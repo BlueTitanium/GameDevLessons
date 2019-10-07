@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 420d5a53e786b21459d2104bf8abbe15
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Axel
+    100002: Bazooka Arm
+    100004: Cap
+    100006: Front Wheel L
+    100008: Front Wheel Rt
+    100010: //RootNode
+    100012: Gnome
+    100014: Gnome Motion Root
+    100016: Hat Node
+    100018: Pulley
+    100020: RayGun
+    100022: RayGun Stand
+    100024: Switch
+    400000: Axel
+    400002: Bazooka Arm
+    400004: Cap
+    400006: Front Wheel L
+    400008: Front Wheel Rt
+    400010: //RootNode
+    400012: Gnome
+    400014: Gnome Motion Root
+    400016: Hat Node
+    400018: Pulley
+    400020: RayGun
+    400022: RayGun Stand
+    400024: Switch
+    2300000: Axel
+    2300002: Bazooka Arm
+    2300004: Cap
+    2300006: Front Wheel L
+    2300008: Front Wheel Rt
+    2300010: Gnome
+    2300012: Pulley
+    2300014: RayGun
+    2300016: RayGun Stand
+    2300018: Switch
+    3300000: Axel
+    3300002: Bazooka Arm
+    3300004: Cap
+    3300006: Front Wheel L
+    3300008: Front Wheel Rt
+    3300010: Gnome
+    3300012: Pulley
+    3300014: RayGun
+    3300016: RayGun Stand
+    3300018: Switch
+    4300000: Gnome
+    4300002: Front Wheel Rt
+    4300004: Front Wheel L
+    4300006: Axel
+    4300008: Pulley
+    4300010: Switch
+    4300012: Bazooka Arm
+    4300014: RayGun Stand
+    4300016: RayGun
+    4300018: Cap
+    7400000: Gnome idle
+    7400002: Gnome travel
+    7400004: Gnome strafe
+    7400006: Gnome arming
+    7400008: Gnome armed
+    7400010: Gnome disarmed
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Gnome idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gnome Motion Root
+        weight: 1
+      - path: Gnome Motion Root/Gnome
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Axel
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Bazooka Arm
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel L
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel Rt
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/Cap
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand/RayGun
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Pulley
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gnome travel
+      takeName: Take 001
+      firstFrame: 95
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gnome Motion Root
+        weight: 1
+      - path: Gnome Motion Root/Gnome
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Axel
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Bazooka Arm
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel L
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel Rt
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/Cap
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand/RayGun
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Pulley
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gnome strafe
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gnome Motion Root
+        weight: 1
+      - path: Gnome Motion Root/Gnome
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Axel
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Bazooka Arm
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel L
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel Rt
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/Cap
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand/RayGun
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Pulley
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gnome arming
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gnome Motion Root
+        weight: 1
+      - path: Gnome Motion Root/Gnome
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Axel
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Bazooka Arm
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel L
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel Rt
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/Cap
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand/RayGun
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Pulley
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gnome armed
+      takeName: Take 001
+      firstFrame: 231
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gnome Motion Root
+        weight: 1
+      - path: Gnome Motion Root/Gnome
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Axel
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Bazooka Arm
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel L
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel Rt
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/Cap
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand/RayGun
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Pulley
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gnome disarmed
+      takeName: Take 001
+      firstFrame: 235
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gnome Motion Root
+        weight: 1
+      - path: Gnome Motion Root/Gnome
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Axel
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Bazooka Arm
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel L
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Front Wheel Rt
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/Cap
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Hat Node/RayGun Stand/RayGun
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Pulley
+        weight: 1
+      - path: Gnome Motion Root/Gnome/Switch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Gnome Motion Root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

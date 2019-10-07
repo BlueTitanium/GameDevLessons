@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 3752bf585a4b08b48b46930ddb929b0b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gate Wall
+    100004: Gateway
+    100006: Pillar Corner
+    100008: Planter Tower
+    100010: Raised Bed
+    100012: Walkway
+    100014: Walkway Center
+    100016: Walkway Raised
+    100018: Walkway Short
+    100020: Wall
+    100022: Water Spout
+    400000: //RootNode
+    400002: Gate Wall
+    400004: Gateway
+    400006: Pillar Corner
+    400008: Planter Tower
+    400010: Raised Bed
+    400012: Walkway
+    400014: Walkway Center
+    400016: Walkway Raised
+    400018: Walkway Short
+    400020: Wall
+    400022: Water Spout
+    2300000: Gate Wall
+    2300002: Gateway
+    2300004: Pillar Corner
+    2300006: Planter Tower
+    2300008: Raised Bed
+    2300010: Walkway
+    2300012: Walkway Center
+    2300014: Walkway Raised
+    2300016: Walkway Short
+    2300018: Wall
+    2300020: Water Spout
+    3300000: Gate Wall
+    3300002: Gateway
+    3300004: Pillar Corner
+    3300006: Planter Tower
+    3300008: Raised Bed
+    3300010: Walkway
+    3300012: Walkway Center
+    3300014: Walkway Raised
+    3300016: Walkway Short
+    3300018: Wall
+    3300020: Water Spout
+    4300000: Gateway
+    4300002: Raised Bed
+    4300004: Planter Tower
+    4300006: Wall
+    4300008: Pillar Corner
+    4300010: Gate Wall
+    4300012: Water Spout
+    4300014: Walkway Raised
+    4300016: Walkway
+    4300018: Walkway Short
+    4300020: Walkway Center
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00499999989
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 30f614417b8136043bdb99363934c2f5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Alien Herbavore
+    100002: //RootNode
+    100004: Bone Back
+    100006: Bone Ear Left
+    100008: Bone Ear Right
+    100010: Bone Front Leg
+    100012: Bone Green nubL
+    100014: Bone Green nubR
+    100016: Bone Greens
+    100018: Bone Greens L
+    100020: Bone Greens R
+    100022: Bone Head
+    100024: Bone Hind leg
+    100026: Bone Hip
+    100028: Bone Jaw
+    100030: Bone Shoulder
+    100032: Bone Tail
+    100034: Bunny Base
+    100036: Bunny Root
+    100038: Alien Herbavore Mesh
+    100040: Alien Motion Root
+    100042: Alien Root
+    400000: Alien Herbavore
+    400002: //RootNode
+    400004: Bone Back
+    400006: Bone Ear Left
+    400008: Bone Ear Right
+    400010: Bone Front Leg
+    400012: Bone Green nubL
+    400014: Bone Green nubR
+    400016: Bone Greens
+    400018: Bone Greens L
+    400020: Bone Greens R
+    400022: Bone Head
+    400024: Bone Hind leg
+    400026: Bone Hip
+    400028: Bone Jaw
+    400030: Bone Shoulder
+    400032: Bone Tail
+    400034: Bunny Base
+    400036: Bunny Root
+    400038: Alien Herbavore Mesh
+    400040: Alien Motion Root
+    400042: Alien Root
+    4300000: Alien Herbavore
+    4300002: Alien Herbavore Mesh
+    7400000: Alien Eat
+    9500000: //RootNode
+    13700000: Alien Herbavore
+    13700002: Alien Herbavore Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Alien Eat
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien Herbavore Mesh
+        weight: 1
+      - path: Alien Motion Root
+        weight: 1
+      - path: Alien Motion Root/Alien Root
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Back
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Back/Bone Ear Left
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Back/Bone Ear Right
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Back/Bone Hip
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Back/Bone Hip/Bone Hind leg
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Back/Bone Hip/Bone Tail
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Greens
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Greens/Bone Green nubL
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Greens/Bone Green nubL/Bone Greens
+          L
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Greens/Bone Green nubR
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Greens/Bone Green nubR/Bone Greens
+          R
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Head
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Jaw
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Shoulder
+        weight: 1
+      - path: Alien Motion Root/Alien Root/Bone Shoulder/Bone Front Leg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0149999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Alien Motion Root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

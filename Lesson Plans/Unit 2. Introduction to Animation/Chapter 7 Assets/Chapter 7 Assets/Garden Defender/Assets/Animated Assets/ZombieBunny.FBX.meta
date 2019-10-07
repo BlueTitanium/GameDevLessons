@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 42fd3807de8ae72489306be3185ae5c6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone Back
+    100002: Bone Ear Left
+    100004: Bone Ear Right
+    100006: Bone Front Leg
+    100008: Bone Green nubL
+    100010: Bone Green nubR
+    100012: Bone Greens
+    100014: Bone Greens L
+    100016: Bone Greens R
+    100018: Bone Head
+    100020: Bone Hind leg
+    100022: Bone Hip
+    100024: Bone Jaw
+    100026: Bone Shoulder
+    100028: Bone Tail
+    100030: Bunny Motion Root
+    100032: Bunny Root
+    100034: Scene Root
+    100036: //RootNode
+    100038: ZombieBunny
+    400000: Bone Back
+    400002: Bone Ear Left
+    400004: Bone Ear Right
+    400006: Bone Front Leg
+    400008: Bone Green nubL
+    400010: Bone Green nubR
+    400012: Bone Greens
+    400014: Bone Greens L
+    400016: Bone Greens R
+    400018: Bone Head
+    400020: Bone Hind leg
+    400022: Bone Hip
+    400024: Bone Jaw
+    400026: Bone Shoulder
+    400028: Bone Tail
+    400030: Bunny Motion Root
+    400032: Bunny Root
+    400034: Scene Root
+    400036: //RootNode
+    400038: ZombieBunny
+    2300000: ZombieBunny
+    3300000: ZombieBunny
+    4300000: ZombieBunny
+    7400000: Bunny Eat
+    9500000: //RootNode
+    13700000: ZombieBunny
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bunny Eat
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny Motion Root
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Back
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Back/Bone Ear Left
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Back/Bone Ear Right
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Back/Bone Hip
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Back/Bone Hip/Bone Hind leg
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Back/Bone Hip/Bone Tail
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Greens
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Greens/Bone Green nubL
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Greens/Bone Green nubL/Bone Greens
+          L
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Greens/Bone Green nubR
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Greens/Bone Green nubR/Bone Greens
+          R
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Head
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Jaw
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Shoulder
+        weight: 1
+      - path: Bunny Motion Root/Bunny Root/Bone Shoulder/Bone Front Leg
+        weight: 1
+      - path: Scene Root
+        weight: 1
+      - path: ZombieBunny
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0149999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Bunny Motion Root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
