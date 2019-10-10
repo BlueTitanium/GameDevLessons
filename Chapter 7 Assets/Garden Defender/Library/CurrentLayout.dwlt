@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 27
+  controlID: 121
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 89
+  controlID: 36
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 66
+  controlID: 37
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,11 +309,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game Scripts
+    - Assets/Animated Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Game Scripts
+  - Assets/Animated Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: A:\gamedev\GamedevLessons\GameDevLessons\Chapter 7 Assets\Garden
     Defender
@@ -321,8 +321,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 41}
-    m_SelectedIDs: 94290000
-    m_LastClickedID: 10644
+    m_SelectedIDs: 062c0000
+    m_LastClickedID: 11270
     m_ExpandedIDs: 000000005a280000062c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -378,8 +378,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 262d0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 262d00006e2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -403,7 +403,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 175}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 218
 --- !u!114 &13
@@ -432,10 +432,11 @@ MonoBehaviour:
     width: 275
     height: 911
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 9000000, guid: 275f1c7fb50905f4c9c35c61879bcb9c, type: 3}
   m_InstanceIDsLockedBeforeSerialization: 
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
@@ -470,9 +471,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b0fbffff
+      m_SelectedIDs: d2f8ffff
+      m_LastClickedID: -1838
+      m_ExpandedIDs: 70f8ffff74f8ffff78f8ffff80f8ffff84f8ffff8cf8ffff90f8ffff94f8ffff98f8ffff9cf8ffffa0f8ffffa8f8ffffacf8ffffb0f8ffffb4f8ffffbcf8ffffc0f8ffffc4f8ffffc8f8ffffccf8ffffd2f8fffff8f8ffffb0fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -528,9 +529,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.432062, y: 0.5571976, z: -5.445276}
+    m_Target: {x: 0.10479756, y: 0.6585328, z: 0.9846134}
     speed: 2
-    m_Value: {x: 5.432062, y: 0.5571976, z: -5.445276}
+    m_Value: {x: 0.10479756, y: 0.6585328, z: 0.9846134}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -538,12 +539,12 @@ MonoBehaviour:
     section: Shading Mode
   m_ValidateTrueMetals: 0
   m_SceneViewState:
-    showFog: 1
+    showFog: 0
     showMaterialUpdate: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
+    showSkybox: 0
+    showFlares: 0
+    showImageEffects: 0
+    showParticleSystems: 0
   grid:
     xGrid:
       m_Target: 0
@@ -558,13 +559,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.081892535, y: 0.8868984, z: -0.1726935, w: 0.4205732}
+    m_Target: {x: 0.013993177, y: 0.97432387, z: -0.21563816, w: 0.06322526}
     speed: 2
-    m_Value: {x: 0.081892535, y: 0.8868984, z: -0.1726935, w: 0.4205732}
+    m_Value: {x: 0.013993177, y: 0.97432387, z: -0.21563816, w: 0.06322526}
   m_Size:
-    m_Target: 11.453772
+    m_Target: 1.9029051
     speed: 2
-    m_Value: 11.453772
+    m_Value: 1.9029051
   m_Ortho:
     m_Target: 0
     speed: 2
