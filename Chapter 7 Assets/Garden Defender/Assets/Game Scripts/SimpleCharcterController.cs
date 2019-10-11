@@ -9,14 +9,18 @@ public class SimpleCharcterController : MonoBehaviour {
 	void Start () {
 		animator = GetComponent<Animator>(); // assign the animator
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (animator) {
-		
-		   float v = Input.GetAxis("Vertical");
-		   animator.SetFloat("Input V", v);
-		   print (v); // see what the v input value sent to the animator
+			if(Input.GetKey("space")){
+				animator.SetBool("Jump", true);
+			} else {
+				animator.SetBool("Jump", false);
+			}
+			float v = Input.GetAxis("Vertical");
+		    animator.SetFloat("Input V", v);
+		    print (v); // see what the v input value sent to the animator
 		}
 	}
 	
