@@ -18,7 +18,7 @@ public class PotatoLauncher : MonoBehaviour {
 		
 		timeRemaining -= Time.deltaTime; //
 		// if the Fire1 button (default is left ctrl) is pressed and the alloted time has passed
-		if (Input.GetButton ("Fire1") && timeRemaining <= 0) { 
+		if (Input.GetKey (KeyCode.Mouse0) && timeRemaining <= 0) { 
 		   timeRemaining = loadRate; // reset the time remaining
 		   ShootProjectile ();// …shoot the projectile
 			GetComponent<AudioSource>().Play (); // play the default audio clip on this component's gameObject
