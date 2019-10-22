@@ -5,21 +5,23 @@ using UnityEngine;
 public class ArmMove : MonoBehaviour
 {
     public float rotSpeed = 1f;
+    float xrot=0;
+    public GameObject gnome;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKey(KeyCode.LeftControl)){
-            transform.Rotate(1*rotSpeed,0,0);
+            xrot += (1*rotSpeed);
         }
         if(Input.GetKey(KeyCode.LeftShift)){
-            transform.Rotate(-1*rotSpeed,0,0);
+            xrot += (-1*rotSpeed);
         }
-        transform.eulerAngles.x = Mathf.Clamp(transform.eulerAngles.x, -60, 60);
+        xrot = Mathf.Clamp(xrot, -60, 60);
+        transform.eulerAngles = new Vector3(xrot,gnome.transform.eulerAngles.y,0);
     }
 }
