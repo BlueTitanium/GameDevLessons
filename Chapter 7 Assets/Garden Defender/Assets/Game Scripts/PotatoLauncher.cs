@@ -7,7 +7,8 @@ public class PotatoLauncher : MonoBehaviour {
 	public float speed = 20f; // give speed a default of 20 
 	float loadRate = 0.5f; // how often a new projectile can be fired
 	float timeRemaining; // how much time before the next shot can happen
-
+	public Camera camera1;
+	public Camera camera2;
 	// Use this for initialization
 	void Start () {
 		
@@ -22,6 +23,14 @@ public class PotatoLauncher : MonoBehaviour {
 		   timeRemaining = loadRate; // reset the time remaining
 		   ShootProjectile ();// …shoot the projectile
 			GetComponent<AudioSource>().Play (); // play the default audio clip on this component's gameObject
+		}
+		if(Input.GetKey(KeyCode.Mouse1)){
+			camera1.gameObject.SetActive(false);
+			camera2.gameObject.SetActive(true);
+		}
+		else{
+			camera2.gameObject.SetActive(false);
+			camera1.gameObject.SetActive(true);
 		}
 	
 	}
