@@ -5,10 +5,12 @@ using UnityEngine;
 public class Plants : MonoBehaviour
 {
     bool dying = false;
+    public Transform manager;
+    float score = 20f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        manager.GetComponent<GameManager>().maxPlantScore += 20f;
     }
 
     // Update is called once per frame
@@ -19,6 +21,8 @@ public class Plants : MonoBehaviour
         }
         if(transform.localScale == new Vector3(0f, 0f, 0f)){
             gameObject.SetActive(false);
+            manager.GetComponent<GameManager>().maxPlantScore -= 20f;
+            manager.GetComponent<GameManager>().score -= 20f;
         }
     }
     private void OnCollisionEnter(Collision other) {

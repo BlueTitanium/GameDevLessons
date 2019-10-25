@@ -5,7 +5,7 @@ public class PotatoLauncher : MonoBehaviour {
 	
 	public GameObject projectile; // the projectile prefab
 	public float speed = 20f; // give speed a default of 20 
-	float loadRate = 0.5f; // how often a new projectile can be fired
+	float loadRate = 0.1f; // how often a new projectile can be fired
 	float timeRemaining; // how much time before the next shot can happen
 	public Camera camera1;
 	public Camera camera2;
