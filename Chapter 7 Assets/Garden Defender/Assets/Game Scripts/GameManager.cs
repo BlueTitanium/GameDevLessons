@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     float timer = 0f;
 	float maxtime = .5f;
     float timerS = 0f;
-    public float score = 0f;
+    public float score = 1320f;
     public float maxPlantScore = 0f;
     // Start is called before the first frame update
     void Start()
