@@ -6,7 +6,7 @@ public class GnomeController : MonoBehaviour
 {
     public float speed = 1f;
     public float rotSpeed = 1f;
-    GameObject manager;
+    public GameObject manager;
     // Start is called before the first frame update
     void Start()
     {

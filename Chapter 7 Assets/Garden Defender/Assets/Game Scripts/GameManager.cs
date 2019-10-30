@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public float maxPlantScore = 0f;
     public TextMeshProUGUI time;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI remainingPlants;
     float seconds = 0f;
     
     // Start is called before the first frame update
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
         pauseScreen.gameObject.SetActive(false);
         time.SetText("Time: " + 0);
         scoreText.SetText("Score: " + score);
+        remainingPlants.SetText("Remaining Plants: " + maxPlantScore/20 + " " + 1320/20);
     }
 
     // Update is called once per frame
@@ -55,6 +57,7 @@ public class GameManager : MonoBehaviour
         seconds += Time.deltaTime;
         time.SetText("Time: " + Math.Round(seconds,2));
         scoreText.SetText("Score: " + score);
+        remainingPlants.SetText("Remaining Plants: " + maxPlantScore/20 + " / " + 1320/20);
     }
     public void Pause()
     {
@@ -80,12 +83,12 @@ public class GameManager : MonoBehaviour
     //     VictoryScreen.gameObject.SetActive(true);
     //     Time.timeScale = 0f;
     // }    
-    // public void QuitToMainScreen(){
-    //     Cursor.visible = true;
-    //     Cursor.lockState = CursorLockMode.None;
-    //     SceneManager.LoadScene("Menu");
-    //     Time.timeScale = 1f;
-    // }
+    public void QuitToMainScreen(){
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("Menu");
+        Time.timeScale = 1f;
+    }
 
     public void Restart()
     {
