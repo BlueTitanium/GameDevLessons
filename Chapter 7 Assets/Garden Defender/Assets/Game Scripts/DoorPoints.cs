@@ -17,6 +17,8 @@ public class DoorPoints : MonoBehaviour
         
     }
     private void OnTriggerEnter(Collider other) {
-        manager.GetComponent<GameManager>().Restart();
+        if(other.tag == "Player"){
+            manager.GetComponent<GameManager>().Restart();
+        }
     }
 }

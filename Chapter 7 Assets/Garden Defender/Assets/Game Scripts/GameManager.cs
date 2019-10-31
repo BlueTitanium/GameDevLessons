@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     Transform pauseScreen = null;
+    Transform LossScreen = null;
     public bool isPaused = false;
+    public bool loss = false;
     public Transform bunny;
     public Transform min;
     public Transform max;
@@ -44,9 +46,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {        
-        if(Input.GetKeyDown(KeyCode.Escape) && !isPaused) //&& !player.GetComponent<PlayerController>().victory && !player.GetComponent<PlayerController>().truevictory && !player.GetComponent<PlayerController>().crashed)
+        if(Input.GetKeyDown(KeyCode.Escape) && !isPaused)
         Pause();
-        else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)// && !player.GetComponent<PlayerController>().victory && !player.GetComponent<PlayerController>().truevictory && !player.GetComponent<PlayerController>().crashed)
+        else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)
         UnPause();
         if(timer <= 0f){
 			timer = maxtime;
@@ -58,6 +60,9 @@ public class GameManager : MonoBehaviour
         time.SetText("Time: " + Math.Round(seconds,2));
         scoreText.SetText("Score: " + score);
         remainingPlants.SetText("Remaining Plants: " + maxPlantScore/20 + " / " + 1320/20);
+        if(maxPlantScore == 0){
+            dispLoss();
+        }
     }
     public void Pause()
     {
@@ -77,12 +82,12 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f; //resume game
     }
 
-    // public void dispLoss(){
-    //     Cursor.visible = true;
-    //     Cursor.lockState = CursorLockMode.None;
-    //     VictoryScreen.gameObject.SetActive(true);
-    //     Time.timeScale = 0f;
-    // }    
+    public void dispLoss(){
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        LossScreen.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+    }    
     public void QuitToMainScreen(){
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
