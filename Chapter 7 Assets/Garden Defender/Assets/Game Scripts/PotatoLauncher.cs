@@ -11,7 +11,7 @@ public class PotatoLauncher : MonoBehaviour {
 	public Camera camera2;
 	// Use this for initialization
 	void Start () {
-		
+		camera2.gameObject.SetActive(false);
 	}
 	
 	// Update is called once per frame

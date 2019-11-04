@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     Transform pauseScreen = null;
+    [SerializeField]
     Transform LossScreen = null;
     public bool isPaused = false;
     public bool loss = false;
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
         y = min.transform.position.y;
         Time.timeScale = 1f;
         pauseScreen.gameObject.SetActive(false);
+        LossScreen.gameObject.SetActive(false);
         time.SetText("Time: " + 0);
         scoreText.SetText("Score: " + score);
         remainingPlants.SetText("Remaining Plants: " + maxPlantScore/20 + " " + 1320/20);
@@ -46,9 +48,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {        
-        if(Input.GetKeyDown(KeyCode.Escape) && !isPaused)
+        if(Input.GetKeyDown(KeyCode.Escape) && !isPaused && !loss)
         Pause();
-        else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)
+        else if(Input.GetKeyDown(KeyCode.Escape) && isPaused && !loss)
         UnPause();
         if(timer <= 0f){
 			timer = maxtime;
@@ -62,6 +64,7 @@ public class GameManager : MonoBehaviour
         remainingPlants.SetText("Remaining Plants: " + maxPlantScore/20 + " / " + 1320/20);
         if(maxPlantScore == 0){
             dispLoss();
+            loss = true;
         }
     }
     public void Pause()

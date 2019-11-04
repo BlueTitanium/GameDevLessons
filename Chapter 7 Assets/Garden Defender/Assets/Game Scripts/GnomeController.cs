@@ -16,7 +16,7 @@ public class GnomeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
-        if(manager.GetComponent<GameManager>().isPaused == false){
+        if(manager.GetComponent<GameManager>().isPaused == false && manager.GetComponent<GameManager>().loss == false){
             if(Input.GetKey("a")){
                 transform.Rotate(0,-1*rotSpeed,0);
             }
